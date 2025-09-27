@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>d:\浙江工业大学 学习\大一\计算机类\课程设计\学生综合测评系统sces\学生综合测评系统sces</FILEPATH>
+      <FILENAME>student.cpp</FILENAME>
+      <LINE>198</LINE>
+      <COLUMN>52</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '-' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '-' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>Student::Set_Student</FUNCTION>
+    <DECORATED>?Set_Student@Student@@QAE_NXZ</DECORATED>
+    <FUNCLINE>178</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

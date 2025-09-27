@@ -1,0 +1,11 @@
+﻿  main.cpp
+  Student.cpp
+  StudentList.cpp
+d:\浙江工业大学 学习\大一\c++\课程设计\学生综合测评系统sces\学生综合测评系统sces\studentlist.cpp(892): warning C4244: “初始化”: 从“__int64”转换到“unsigned int”，可能丢失数据
+d:\浙江工业大学 学习\大一\c++\课程设计\学生综合测评系统sces\学生综合测评系统sces\studentlist.cpp(1015): warning C4244: “初始化”: 从“__int64”转换到“unsigned int”，可能丢失数据
+d:\浙江工业大学 学习\大一\c++\课程设计\学生综合测评系统sces\学生综合测评系统sces\studentlist.cpp(1531): warning C4244: “初始化”: 从“__int64”转换到“unsigned int”，可能丢失数据
+d:\浙江工业大学 学习\大一\c++\课程设计\学生综合测评系统sces\学生综合测评系统sces\studentlist.cpp(1584): warning C4244: “初始化”: 从“__int64”转换到“unsigned int”，可能丢失数据
+d:\浙江工业大学 学习\大一\c++\课程设计\学生综合测评系统sces\学生综合测评系统sces\studentlist.cpp(1585): warning C4244: “参数”: 从“__int64”转换到“size_t”，可能丢失数据
+  正在生成代码...
+  LINK : 没有找到 D:\浙江工业大学 学习\大一\C++\课程设计\学生综合测评系统SCES\Debug\学生综合测评系统SCES.exe 或上一个增量链接没有生成它；正在执行完全链接
+  学生综合测评系统SCES.vcxproj -> D:\浙江工业大学 学习\大一\C++\课程设计\学生综合测评系统SCES\Debug\学生综合测评系统SCES.exe

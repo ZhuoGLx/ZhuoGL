@@ -1,0 +1,288 @@
+﻿<?xml version="1.0" encoding="utf-8"?><DEFECTS><DEFECT>
+    <SFA>
+      <FILEPATH>d:\浙江工业大学 学习\大一\计算机类\课程设计\学生综合测评系统sces\学生综合测评系统sces</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>330</LINE>
+      <COLUMN>54</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '-' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '-' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>main</FUNCTION>
+    <DECORATED>main</DECORATED>
+    <FUNCLINE>34</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>d:\浙江工业大学 学习\大一\计算机类\课程设计\学生综合测评系统sces\学生综合测评系统sces</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>278</LINE>
+      <COLUMN>54</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '-' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '-' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>main</FUNCTION>
+    <DECORATED>main</DECORATED>
+    <FUNCLINE>34</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>d:\浙江工业大学 学习\大一\计算机类\课程设计\学生综合测评系统sces\学生综合测评系统sces</FILEPATH>
+      <FILENAME>student.cpp</FILENAME>
+      <LINE>198</LINE>
+      <COLUMN>52</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '-' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '-' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>Student::Set_Student</FUNCTION>
+    <DECORATED>?Set_Student@Student@@QAE_NXZ</DECORATED>
+    <FUNCLINE>178</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>d:\浙江工业大学 学习\大一\计算机类\课程设计\学生综合测评系统sces\学生综合测评系统sces</FILEPATH>
+      <FILENAME>studentlist.cpp</FILENAME>
+      <LINE>1154</LINE>
+      <COLUMN>143</COLUMN>
+    </SFA>
+    <DEFECTCODE>6385</DEFECTCODE>
+    <DESCRIPTION>从“Data_list_chinese”中读取的数据无效: 可读大小为“420”个字节，但可能读取了“-28”个字节。</DESCRIPTION>
+    <FUNCTION>StudentList::precise_search</FUNCTION>
+    <DECORATED>?precise_search@StudentList@@QAEPAPAVNode@@XZ</DECORATED>
+    <FUNCLINE>992</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>d:\浙江工业大学 学习\大一\计算机类\课程设计\学生综合测评系统sces\学生综合测评系统sces</FILEPATH>
+        <FILENAME>studentlist.cpp</FILENAME>
+        <LINE>994</LINE>
+        <COLUMN>20</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>分支</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>跳过此分支(假定“this-&gt;List_is_none()==0”为 false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\浙江工业大学 学习\大一\计算机类\课程设计\学生综合测评系统sces\学生综合测评系统sces</FILEPATH>
+        <FILENAME>studentlist.cpp</FILENAME>
+        <LINE>999</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\浙江工业大学 学习\大一\计算机类\课程设计\学生综合测评系统sces\学生综合测评系统sces</FILEPATH>
+        <FILENAME>studentlist.cpp</FILENAME>
+        <LINE>1000</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\浙江工业大学 学习\大一\计算机类\课程设计\学生综合测评系统sces\学生综合测评系统sces</FILEPATH>
+        <FILENAME>studentlist.cpp</FILENAME>
+        <LINE>1001</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\浙江工业大学 学习\大一\计算机类\课程设计\学生综合测评系统sces\学生综合测评系统sces</FILEPATH>
+        <FILENAME>studentlist.cpp</FILENAME>
+        <LINE>1001</LINE>
+        <COLUMN>19</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>分支</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>进入此循环(假定“i&lt;15”)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\浙江工业大学 学习\大一\计算机类\课程设计\学生综合测评系统sces\学生综合测评系统sces</FILEPATH>
+        <FILENAME>studentlist.cpp</FILENAME>
+        <LINE>1003</LINE>
+        <COLUMN>34</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\浙江工业大学 学习\大一\计算机类\课程设计\学生综合测评系统sces\学生综合测评系统sces</FILEPATH>
+        <FILENAME>studentlist.cpp</FILENAME>
+        <LINE>1004</LINE>
+        <COLUMN>39</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>声明</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>“Data_list_chinese”是“std::&lt;&lt;”中的输出(在 d:\sorftware\vs\vc\tools\msvc\14.16.27023\include\string:170 处声明)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\浙江工业大学 学习\大一\计算机类\课程设计\学生综合测评系统sces\学生综合测评系统sces</FILEPATH>
+        <FILENAME>studentlist.cpp</FILENAME>
+        <LINE>1001</LINE>
+        <COLUMN>26</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\浙江工业大学 学习\大一\计算机类\课程设计\学生综合测评系统sces\学生综合测评系统sces</FILEPATH>
+        <FILENAME>studentlist.cpp</FILENAME>
+        <LINE>1001</LINE>
+        <COLUMN>19</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>分支</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>进入此循环(假定“i&lt;15”)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\浙江工业大学 学习\大一\计算机类\课程设计\学生综合测评系统sces\学生综合测评系统sces</FILEPATH>
+        <FILENAME>studentlist.cpp</FILENAME>
+        <LINE>1003</LINE>
+        <COLUMN>34</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\浙江工业大学 学习\大一\计算机类\课程设计\学生综合测评系统sces\学生综合测评系统sces</FILEPATH>
+        <FILENAME>studentlist.cpp</FILENAME>
+        <LINE>1004</LINE>
+        <COLUMN>39</COLUMN>
+        <KEYEVENT>
+          <ID>5</ID>
+          <KIND>声明</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>“Data_list_chinese”是“std::&lt;&lt;”中的输出(在 d:\sorftware\vs\vc\tools\msvc\14.16.27023\include\string:170 处声明)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\浙江工业大学 学习\大一\计算机类\课程设计\学生综合测评系统sces\学生综合测评系统sces</FILEPATH>
+        <FILENAME>studentlist.cpp</FILENAME>
+        <LINE>1001</LINE>
+        <COLUMN>26</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\浙江工业大学 学习\大一\计算机类\课程设计\学生综合测评系统sces\学生综合测评系统sces</FILEPATH>
+        <FILENAME>studentlist.cpp</FILENAME>
+        <LINE>1001</LINE>
+        <COLUMN>19</COLUMN>
+        <KEYEVENT>
+          <ID>6</ID>
+          <KIND>分支</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>继续此循环(假定“i&lt;15”)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\浙江工业大学 学习\大一\计算机类\课程设计\学生综合测评系统sces\学生综合测评系统sces</FILEPATH>
+        <FILENAME>studentlist.cpp</FILENAME>
+        <LINE>1006</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\浙江工业大学 学习\大一\计算机类\课程设计\学生综合测评系统sces\学生综合测评系统sces</FILEPATH>
+        <FILENAME>studentlist.cpp</FILENAME>
+        <LINE>1007</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\浙江工业大学 学习\大一\计算机类\课程设计\学生综合测评系统sces\学生综合测评系统sces</FILEPATH>
+        <FILENAME>studentlist.cpp</FILENAME>
+        <LINE>1008</LINE>
+        <COLUMN>22</COLUMN>
+        <KEYEVENT>
+          <ID>7</ID>
+          <KIND>分支</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>跳过此循环(假定“position&gt;15||position&lt;0”为 false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\浙江工业大学 学习\大一\计算机类\课程设计\学生综合测评系统sces\学生综合测评系统sces</FILEPATH>
+        <FILENAME>studentlist.cpp</FILENAME>
+        <LINE>1014</LINE>
+        <COLUMN>14</COLUMN>
+        <KEYEVENT>
+          <ID>8</ID>
+          <KIND>分支</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>跳过此分支(假定“position==0”为 false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\浙江工业大学 学习\大一\计算机类\课程设计\学生综合测评系统sces\学生综合测评系统sces</FILEPATH>
+        <FILENAME>studentlist.cpp</FILENAME>
+        <LINE>1019</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\浙江工业大学 学习\大一\计算机类\课程设计\学生综合测评系统sces\学生综合测评系统sces</FILEPATH>
+        <FILENAME>studentlist.cpp</FILENAME>
+        <LINE>1020</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\浙江工业大学 学习\大一\计算机类\课程设计\学生综合测评系统sces\学生综合测评系统sces</FILEPATH>
+        <FILENAME>studentlist.cpp</FILENAME>
+        <LINE>1021</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\浙江工业大学 学习\大一\计算机类\课程设计\学生综合测评系统sces\学生综合测评系统sces</FILEPATH>
+        <FILENAME>studentlist.cpp</FILENAME>
+        <LINE>1023</LINE>
+        <COLUMN>19</COLUMN>
+        <KEYEVENT>
+          <ID>9</ID>
+          <KIND>分支</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>跳过此分支(假定“position&gt;=1&amp;&amp;position&lt;=5”为 false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\浙江工业大学 学习\大一\计算机类\课程设计\学生综合测评系统sces\学生综合测评系统sces</FILEPATH>
+        <FILENAME>studentlist.cpp</FILENAME>
+        <LINE>1152</LINE>
+        <COLUMN>21</COLUMN>
+        <KEYEVENT>
+          <ID>10</ID>
+          <KIND>分支</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>进入此分支(假定“position!=10&amp;&amp;position!=15”)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\浙江工业大学 学习\大一\计算机类\课程设计\学生综合测评系统sces\学生综合测评系统sces</FILEPATH>
+        <FILENAME>studentlist.cpp</FILENAME>
+        <LINE>1154</LINE>
+        <COLUMN>143</COLUMN>
+        <KEYEVENT>
+          <ID>11</ID>
+          <KIND>声明</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>“Data_list_chinese”是“std::&lt;&lt;”中的输出(在 d:\sorftware\vs\vc\tools\msvc\14.16.27023\include\string:170 处声明)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\浙江工业大学 学习\大一\计算机类\课程设计\学生综合测评系统sces\学生综合测评系统sces</FILEPATH>
+        <FILENAME>studentlist.cpp</FILENAME>
+        <LINE>1154</LINE>
+        <COLUMN>143</COLUMN>
+        <KEYEVENT>
+          <ID>12</ID>
+          <KIND>使用情况</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>从“Data_list_chinese[-1]”中读取无效(可读范围是 0 到 14)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>d:\浙江工业大学 学习\大一\计算机类\课程设计\学生综合测评系统sces\学生综合测评系统sces</FILEPATH>
+      <FILENAME>studentlist.cpp</FILENAME>
+      <LINE>1041</LINE>
+      <COLUMN>52</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '-' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '-' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>StudentList::precise_search</FUNCTION>
+    <DECORATED>?precise_search@StudentList@@QAEPAPAVNode@@XZ</DECORATED>
+    <FUNCLINE>992</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT></DEFECTS>
